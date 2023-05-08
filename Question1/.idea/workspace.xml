@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b14ab79c-8872-4b2c-9fbc-ed27c6a1b57e" name="Changes" comment="" />
+    <list default="true" id="b378186c-340f-4b09-bb62-9740fd46adfb" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectId" id="2PWaI3E0S62Om4srjFbrzcOtqiu" />
+  <component name="ProjectId" id="2PWdK0qOaxGogiTadFOObybbXx1" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -23,9 +17,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "developer",
-    "last_opened_file_path": "C:/Users/Davif/projects/Challenges/Challenge1/Question1",
-    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/Davif/Desktop/Challenge1/Question1/src/Main.java",
     "settings.editor.selected.configurable": "configurable.group.appearance",
     "vue.rearranger.settings.migration": "true"
   }
@@ -33,17 +25,26 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b14ab79c-8872-4b2c-9fbc-ed27c6a1b57e" name="Changes" comment="" />
-      <created>1683575207949</created>
+      <changelist id="b378186c-340f-4b09-bb62-9740fd46adfb" name="Changes" comment="" />
+      <created>1683576706238</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1683575207949</updated>
-      <workItem from="1683575209132" duration="161000" />
-      <workItem from="1683575538203" duration="209000" />
+      <updated>1683576706238</updated>
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
