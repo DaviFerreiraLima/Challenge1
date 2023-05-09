@@ -9,24 +9,34 @@ public class Main {
 
         scanner.nextLine(); //Consumir quebra de Linha
 
-        Employee[] employees= new Employee[employeesNumber];
 
-        for (int i =0 ; i<employees.length; i++){
+        createAndListinEmployees(employeesNumber);
 
-            System.out.println("Write the name of the "+(i+1)+"º employee");
-            String employeeName = scanner.nextLine();
-
-            System.out.println("Write the salary of the "+(i+1)+"º employee");
-            double employeeSalary = scanner.nextDouble();
-
-            scanner.nextLine();//Consumir quebra de Linha
-
-            employees[i] = new Employee(employeeName,employeeSalary);
-
-        }
-
-        for (Employee employe : employees) {
-            System.out.println("Name: "+employe.getName() + ", salário: "+employe.getSalary());
-        }
     }
-}
+
+    public static void createAndListinEmployees (int employeesNumber){
+            Scanner scanner = new Scanner(System.in);
+
+            Employee[] employees= new Employee[employeesNumber];
+
+
+            for (int i =0 ; i<employees.length; i++){
+
+                System.out.println("Write the name of the "+(i+1)+"º employee");
+                String employeeName = scanner.nextLine();
+
+                System.out.println("Write the salary of the "+(i+1)+"º employee");
+                double employeeSalary = scanner.nextDouble();
+
+                scanner.nextLine();//Consumir quebra de Linha
+
+                employees[i] = new Employee(employeeName,employeeSalary);
+
+            }
+            for (Employee employe : employees) {
+                System.out.println(employe.toString());;
+            }
+        }
+
+    }
+
