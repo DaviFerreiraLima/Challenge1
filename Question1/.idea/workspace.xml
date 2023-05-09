@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b378186c-340f-4b09-bb62-9740fd46adfb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Question 3/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Question 3/src/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Question3/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Question3/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Question3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Question3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Question3/out/production/Question3/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Question3/out/production/Question3/Question.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +36,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "developer",
-    "last_opened_file_path": "C:/Users/Davif/Desktop/Challenge1/Question1",
+    "last_opened_file_path": "C:/Users/Davif/Desktop/Challenge1/Question 3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -63,6 +57,7 @@
       <updated>1683576706238</updated>
       <workItem from="1683576707300" duration="711000" />
       <workItem from="1683638192913" duration="49000" />
+      <workItem from="1683651030676" duration="509000" />
     </task>
     <servers />
   </component>
