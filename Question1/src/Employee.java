@@ -75,6 +75,6 @@ public class Employee {
         return "Employee: "+getName() + "\n" +
                 "Salary: R$ " + decimalFormat.format(getSalary()) + "\n"+
                 this.bonusOrDiscount + "\n" +
-                "Liquid salary: R$ "+ decimalFormat.format(getNetSalary());
+                "Liquid salary: R$ "+ decimalFormat.format(getNetSalary()) + "\n";
     }
 }

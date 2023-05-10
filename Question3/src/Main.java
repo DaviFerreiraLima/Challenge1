@@ -33,11 +33,14 @@ public class Main {
             System.out.println("Answer with True Or False\n" + questions[i].getSentence());
             String answer = scanner.nextLine();
 
-            if (answer.equalsIgnoreCase("true")){value = true;}
-            else if (answer.equalsIgnoreCase("false")) {value = false;}
-            else {System.out.println("Digite um valor válido!");}
+            if (answer.equalsIgnoreCase("true"))
+                value = true;
+            else if (answer.equalsIgnoreCase("false"))
+                value = false;
+            else
+                System.out.println("Digite um valor válido!"); // mistura do inglês com PT
 
-            if(questions[i].isResposta() == value) {
+            if(questions[i].isResposta() == value) { // ja que é booleano n precisa do ==, if(questions[i].answer())
                 System.out.println("You Got It Right!");
                 rights ++;
             } else if (questions[i].isResposta() == value) {

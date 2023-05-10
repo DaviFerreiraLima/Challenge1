@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 import java.util.stream.IntStream;
 
@@ -9,13 +10,15 @@ public class Main {
 
         System.out.println("Write the phrase");
         String phrase = scanner.nextLine();
-        if(phrase instanceof String){
+        if(!phrase.isBlank()){
 
             int happyRecorrencies = 0;
             int sadRecorrencies =  0;
 
             result(happyRecorrencies,sadRecorrencies,phrase.toLowerCase());
             
+        } else {
+            System.out.println("Digite um texto");
         }
     }
 
@@ -43,8 +46,7 @@ public class Main {
             System.out.println("fun");
         } else if (happyRecorrencies<sadRecorrencies) {
             System.out.println("upset");
-        }
-        else {
+        } else {
             System.out.println("neutral");
         }
     }

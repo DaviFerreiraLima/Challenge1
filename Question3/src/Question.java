@@ -1,9 +1,9 @@
 
 public class Question {
     private String sentence;
-    private boolean resposta;
+    private boolean resposta; // português misturado com inglês
 
-    public Question(String sentence,boolean resposta) {
+    public Question(String sentence, boolean resposta) {
         this.sentence = sentence;
         this.resposta=resposta;
     }
@@ -17,7 +17,7 @@ public class Question {
         this.sentence = sentence;
     }
 
-    public boolean isResposta() {
+    public boolean isResposta() { // is não encaixa nesse sentido, quando passar pro inglês deve ficar tipo: answer() ou getAnswer()
         return resposta;
     }
 
