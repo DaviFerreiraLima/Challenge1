@@ -1,0 +1,17 @@
+{    
+    "Object" : "Object",
+    "name" : "Davi",
+    "age" : "18",
+    "phone" : "879192929",
+    "height" : "1.81",
+    "email" : "Daviferreilima@gmail.com",
+    "cpf" : "704555777-10",
+    "birthday" : "04/05/2005",
+    "address" : {
+       "zip" : "5555",
+       "street" : "Grove",
+       "complement" : "Below the street",
+       "state" : "Pernambuco",
+       "country" : "Brazil"
+    }
+}
