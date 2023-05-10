@@ -25,7 +25,12 @@ public class Employee {
     }
 
     public void setName(String name) {
-        this.name = name;
+        if(!name.isBlank()){
+            this.name = name;
+        } else {
+            throw new IllegalArgumentException("The name cant be blank");
+        }
+
     }
 
     public double getSalary() {
@@ -45,9 +50,9 @@ public class Employee {
     }
 
     public void setNetSalary(double salary) {
-        DecimalFormat decimalFormat = new DecimalFormat("0.00");
 
-        if (salary <= 1000){
+        DecimalFormat decimalFormat = new DecimalFormat("0.00");
+        if (salary > 0 && salary <= 1000){
             this.netSalary = salary + (salary * 0.2);
             this.bonusOrDiscount = "Bonus:  R$ " +decimalFormat.format((this.netSalary - this.salary));
         }
@@ -58,6 +63,9 @@ public class Employee {
         }else if( salary > 2000 ){
             this.netSalary = salary - (salary * 0.1);
             this.bonusOrDiscount = "Discount:  R$ " +decimalFormat.format((this.salary - this.netSalary));
+        }
+        else {
+            throw new IllegalArgumentException("The salary cannot be 0 or less");
         }
     }
 
