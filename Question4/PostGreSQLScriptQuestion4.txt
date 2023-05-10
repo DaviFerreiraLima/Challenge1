@@ -1,5 +1,6 @@
 create database Question4
 use Question4
+
 create table Address (
 		addressId SERIAL PRIMARY KEY,
 		zip  VARCHAR(50) NOT NULL,
@@ -12,13 +13,14 @@ create table Address (
 );
 
 create table Person (
-	person_id VARCHAR(50) SERIAL KEY,
+	person_id  SERIAL PRIMARY KEY,
 	name VARCHAR(200) NOT NULL ,
 	age INT NOT NULL,
 	phone VARCHAR(20) NOT NULL,
-	height FLOAT() NOT NULL,
+	height FLOAT NOT NULL,
 	email VARCHAR(200) NOT NULL,
 	cpf VARCHAR(11) NOT NULL,
 	birthday DATE NOT NULL,	
-	FOREIGN KEY (adress_id) REFERENCES Adress (adressId)
+	address_id SERIAL,
+	FOREIGN KEY (address_id) REFERENCES Address (addressId)
 );
