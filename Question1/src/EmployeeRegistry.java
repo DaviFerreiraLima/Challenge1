@@ -28,6 +28,16 @@ public class EmployeeRegistry {
         }
 
     }
+
+    /**
+     * Method to list the registered employees.
+     */
+    public void listinEmployees(){
+        for (Employee employe : employees) {
+            System.out.println(employe.toString());
+        }
+    }
+    
     /**
      * Method to register employees.
      *
@@ -74,13 +84,6 @@ public class EmployeeRegistry {
         }
     }
 
-    /**
-    * Method to list the registered employees.
-    */
-    public void listinEmployees(){
-        for (Employee employe : employees) {
-            System.out.println(employe.toString());
-        }
-    }
+
 
 }
