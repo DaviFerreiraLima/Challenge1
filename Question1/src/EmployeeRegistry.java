@@ -6,13 +6,6 @@ public class EmployeeRegistry {
     static Scanner scanner = new Scanner(System.in);
 
 
-    /**
-     * Method for requesting the number of employees to register.
-     *
-     * @return The number of employees to be registered.
-     * @throws InputMismatchException If the entered value is not an integer or is less than or equal to 0.
-     */
-
     public int askEmployeesNumber(){
         System.out.println("How many employees you want to register? ");
 
@@ -29,20 +22,12 @@ public class EmployeeRegistry {
 
     }
 
-    /**
-     * Method to list the registered employees.
-     */
     public void listinEmployees(){
         for (Employee employe : employees) {
             System.out.println(employe.toString());
         }
     }
-    
-    /**
-     * Method to register employees.
-     *
-     * @throws InputMismatchException If input  errors occurr during the employees registration.
-     */
+
 
     public void registerEmployees () {
         try{
@@ -83,7 +68,5 @@ public class EmployeeRegistry {
             registerEmployees();
         }
     }
-
-
 
 }
