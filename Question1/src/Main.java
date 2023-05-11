@@ -1,9 +1,8 @@
-import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         EmployeeRegistry  registry = new EmployeeRegistry();
         registry.registerEmployees();
-        registry.listinEmployees();
+        registry.listingEmployees();
 
     }
 }

@@ -54,7 +54,7 @@ public class EmployeeRegistry {
         }
     }
 
-    public void listinEmployees(){
+    public void listingEmployees(){
         for (Employee employe : employees) {
             System.out.println(employe.toString());
         }
