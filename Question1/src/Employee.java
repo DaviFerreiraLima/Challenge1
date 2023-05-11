@@ -26,12 +26,7 @@ public class Employee {
 
 
     public void setName(String name) {
-        if(!name.isBlank()){
-            this.name = name;
-        } else {
-            throw new IllegalArgumentException("The name cant be blank");
-        }
-
+        this.name = name;
     }
 
 
@@ -41,11 +36,7 @@ public class Employee {
 
 
     public void setSalary(double salary) {
-        if(salary > 0 ){
             this.salary = salary;
-        }else {
-            throw new IllegalArgumentException("You cant register a negative salary.");
-        }
     }
 
 
@@ -81,7 +72,7 @@ public class Employee {
         this.bonusOrDiscount = bonusOrDiscount;
     }
 
-   
+
     @Override
     public String toString() {
         DecimalFormat decimalFormat = new DecimalFormat("0.00");
