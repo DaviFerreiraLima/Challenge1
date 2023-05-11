@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b378186c-340f-4b09-bb62-9740fd46adfb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EmployeeRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeeRegistry.java" afterDir="false" />
-    </list>
+    <list default="true" id="b378186c-340f-4b09-bb62-9740fd46adfb" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +34,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "developer",
-    "last_opened_file_path": "C:/Users/Davif/Documents/Challenge1/Question1",
+    "last_opened_file_path": "C:/Users/Davif/Documents/Challenge1/Question2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -68,7 +64,7 @@
       <workItem from="1683744388764" duration="1192000" />
       <workItem from="1683824361779" duration="164000" />
       <workItem from="1683830916695" duration="414000" />
-      <workItem from="1683831630364" duration="715000" />
+      <workItem from="1683831630364" duration="838000" />
     </task>
     <servers />
   </component>
