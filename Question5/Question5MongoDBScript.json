@@ -1,0 +1,1 @@
+{ "_id" : { "$oid" : "645d5d0812c74d4c1aad76d5" }, "ObjectId" : "", "name" : "", "age" : "", "phone" : "", "height" : "", "email" : "", "cpf" : "", "birthday" : "", "address" : { "zip" : "", "street" : "", "complement" : "", "state" : "", "country" : "" } }
