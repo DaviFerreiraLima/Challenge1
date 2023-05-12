@@ -92,6 +92,7 @@
     be neutral.
     
    Example 1
+
       Input:
       I hope everything is alright :-) 
       
@@ -99,6 +100,7 @@
       fun
       
    Example 2:
+   
       Input:
       I found the film very entertaining. 
       
