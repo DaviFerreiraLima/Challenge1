@@ -1,4 +1,4 @@
-# Challenge 1
+#  👨‍💻 Challenge 1
     This Compass Internship Challenge Week contains a set of coding challenges designed 
     to test my knowledge and skills in Java and database technologies. The challenges
     cover Data Structure and Object oriented programming with Java,SQL(specifically PostgreSQL),
