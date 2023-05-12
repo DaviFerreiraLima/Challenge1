@@ -106,6 +106,7 @@
       neutral
       
    Example 3:
+   
       Input:
       :-) :-( :-( :-)
       
