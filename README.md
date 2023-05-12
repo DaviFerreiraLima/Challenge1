@@ -6,7 +6,7 @@
     its respective folder in the repository.  
   
   
-## 📋 Pré-requisitos
+## 📋 Preconditions
 
     To run the Questions, you must have these tools on your computer:
 
@@ -39,9 +39,9 @@
     📁Question 4
 
     📁Question 5
+    
 
-  
-  ## 📋Questions Description
+## 📋Questions Description
   
    ### Question 1
 
