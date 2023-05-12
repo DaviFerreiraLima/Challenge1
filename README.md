@@ -12,7 +12,7 @@
 
     * Java with JDK 17
     * MongoDB
-    * A RDBMS 
+    * PostGreSQL
     * A compatible IDE
   
 
