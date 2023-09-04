@@ -1,16 +1,16 @@
-{
-    "name" : "",
-    "age" : "",
-    "phone" : "",
-    "height" : "",
-    "email" : "",
-    "cpf" : "",
-    "birthday" : "",
+db.person.insertOne( {
+    "name" : "João Silva",
+    "age" : 35,
+    "phone" : "+55 11 1234-5678",
+    "height" : 1.80,
+    "email" : "joao.silva@example.com",
+    "cpf" : "123.456.789-01",
+    "birthday" : "1988-05-20",
     "address" : {
-        "zip" : "",
-        "street" : "",
-        "complement" : "",
-        "state" : "",
-        "country" : ""
+        "zip" : "01234-567",
+        "street" : "Rua Principal",
+        "complement" : "Apt 101",
+        "state" : "São Paulo",
+        "country" : "Brasil"
     }
-}
+} );
