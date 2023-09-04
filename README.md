@@ -48,7 +48,7 @@
    This question ask to write a java program to recieve a Employee , with salary and name, 
    and return the netSalary and the Bonus or The Discount.
    
-    If the user receives up to R$ 1000.00 real, he will receive a 20% bonus. If you
+    If the user receives up to R$ 1000.00 , he will receive a 20% bonus. If you
     receive more than 1000 and up to 2000, you receive 10%. If it is above 2000, instead
     of a bonus, the employee will have a 10% discount.
     
